@@ -1,0 +1,35 @@
+/* Navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5rem;
+  z-index: 1000; /* Ensure navbar is above other content */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  color: #fff; /* Text color */
+  text-decoration: none;
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
